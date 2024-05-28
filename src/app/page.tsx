@@ -21,7 +21,7 @@ const Page = () => {
   };
 
   const fetchWeatherData = async ([lat, lon]: LatLngTuple) => {
-    const apiKey = "YOUR_OPENWEATHERMAP_API_KEY";
+    const apiKey = "4f2efac6ed38e62570e03ee96c4476a1";
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`
     );
